@@ -1,0 +1,66 @@
+.hero {
+  height: 350px;
+  background-color: black;
+  opacity: 1;
+}
+
+.h1,
+h4 {
+  color: #ffffff;
+  text-align: center;
+  border-bottom: none;
+  padding: 3rem;
+}
+
+.iframe {
+  width: 100vw;
+  height: 350px;
+  max-width: 100%;
+}
+
+.services {
+  background-color: black;
+  height: 450px;
+  width: 100%;
+}
+
+.servicesBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+.men {
+  background-image: url("../../../assets//images/men.jpg");
+}
+
+.women {
+  background-image: url("../../../assets//images/women.jpg");
+}
+
+.kids {
+  background-image: url("../../../assets//images/kids.jpg");
+}
+
+.men,
+.women,
+.kids {
+  text-align: center;
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+  background-size: 100%;
+  cursor: pointer;
+}
+
+.p{
+  font-size: 20px;
+}

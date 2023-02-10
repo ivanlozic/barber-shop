@@ -1,0 +1,56 @@
+.container {
+  margin-top: 4rem;
+  display: flex;
+  width: 100vw;
+  max-width: 100%;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.textContainer {
+  padding: 3rem;
+}
+
+.p {
+  margin: 1rem;
+}
+
+.img {
+  width: 300px;
+  height: 400px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.team {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  max-width: 100%;
+  text-align: center;
+}
+
+.team img {
+  margin-top: 1rem;
+  width: 300px;
+  height: 400px;
+}
+
+.personBox {
+  width: 40%;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.h4 {
+  color: black;
+}
+
+.personText{
+    margin-left: 1rem;
+    text-align: left;
+}
