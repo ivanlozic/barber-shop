@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/*Gallery*/
+
 .wrapper {
   margin: 50px auto;
   display: flex;

@@ -1,5 +1,5 @@
 import classes from "./Hero.module.css";
-import img from "../../assets/images/cover1.jpg";
+import img from "../../assets/images/cover.jpg";
 
 function Hero(props) {
   return (
@@ -8,16 +8,7 @@ function Hero(props) {
         className={classes.img}
         style={{ backgroundImage: `url(${img})` }}
       ></div>
-      <h1
-        style={{
-          marginTop: "2rem",
-          paddingBottom: "30px",
-          textAlign: "center",
-          color: "blueviolet",
-        }}
-      >
-        {props.heading}
-      </h1>
+      <h1 className={classes.h1}>{props.heading}</h1>
     </div>
   );
 }

@@ -6,7 +6,8 @@ nav {
   justify-content: center;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
   z-index: 1;
 }
 .img {
@@ -18,8 +19,8 @@ nav {
 
 .ul {
   display: flex;
-  align-items: center;
   list-style: none;
+  align-items: center;
 }
 
 .ul li {
@@ -39,4 +40,20 @@ nav {
   text-decoration: none;
   color: rgb(221, 126, 227);
   border-bottom: 3px solid rgb(221, 126, 227);
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+  
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  .ul {
+    display: none;
+  }
+
+  .ulVisible {
+    display: block;
+  }
 }

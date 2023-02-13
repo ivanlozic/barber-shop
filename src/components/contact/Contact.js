@@ -24,7 +24,7 @@ const Contact = () => {
             </a>
           </div>
 
-          <div>
+          <div className={classes.hours}>
             <h3>Radno vreme</h3>
             <div className={classes.workingHours}>
               <ul className={classes.ul}>
