@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +20,6 @@
   height: 300px;
   border-radius: 10px;
   border: 3px solid black;
-  
 }
 
 /* modal */
@@ -87,9 +86,6 @@
   z-index: 999;
 }
 
-
-
-
 .ulVisible {
   display: flex;
   flex-direction: column;
@@ -104,3 +100,14 @@
   margin: 0.3rem 0;
 }
 
+@media screen and (max-width: 600px) {
+  .wrapper img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .overlay img {
+    width: 350px;
+    height: 300px;
+  }
+}
