@@ -42,18 +42,40 @@ nav {
   border-bottom: 3px solid rgb(221, 126, 227);
 }
 
+.button{
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   nav {
-  
     width: 100vw;
     max-width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    position: absolute;
+  }
+
+  .img {
+    display: none;
   }
 
   .ul {
     display: none;
   }
 
-  .ulVisible {
+
+
+
+  .button {
     display: block;
+    cursor: pointer;
+    margin: .8rem 0;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
   }
 }

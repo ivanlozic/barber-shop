@@ -86,3 +86,21 @@
   top: 50%;
   z-index: 999;
 }
+
+
+
+
+.ulVisible {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.ulVisible li {
+  margin: 0.3rem 0;
+}
+

@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <nav>
-      <button onClick={toggleNav}>Toggle Nav</button>
-      <ul className={`${classes.ul}${isNavVisible ? "Visible" : ""}`}>
+      <button className={classes.button} onClick={toggleNav}>Menu</button>
+      <ul className={isNavVisible ? "ulVisible" : `${classes.ul}`}>
         <li>
           <NavLink className={classes.NavLink} to="/">
             Početna
