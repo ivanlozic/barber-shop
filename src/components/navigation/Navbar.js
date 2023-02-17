@@ -10,41 +10,47 @@ const Navbar = () => {
     setIsNavVisible(!isNavVisible);
   };
 
+  const hideNav = () => {
+    setIsNavVisible(false);
+  };
+
   return (
     <nav>
-      <button className={classes.button} onClick={toggleNav}>Menu</button>
+      <button className={classes.button} onClick={toggleNav}>
+        Menu
+      </button>
       <ul className={isNavVisible ? "ulVisible" : `${classes.ul}`}>
         <li>
-          <NavLink className={classes.NavLink} to="/">
+          <NavLink onClick={hideNav} className={classes.NavLink} to="/">
             Početna
           </NavLink>
         </li>
         <li>
           {" "}
-          <NavLink className={classes.NavLink} to="/about">
+          <NavLink onClick={hideNav} className={classes.NavLink} to="/about">
             O nama
           </NavLink>
         </li>
         <li>
           {" "}
-          <NavLink className={classes.NavLink} to="/gallery">
+          <NavLink onClick={hideNav} className={classes.NavLink} to="/gallery">
             Galerija
           </NavLink>
         </li>
         <img className={classes.img} alt="Logo" src={logo} />
         <li>
           {" "}
-          <NavLink className={classes.NavLink} to="/services">
+          <NavLink onClick={hideNav} className={classes.NavLink} to="/services">
             Usluge
           </NavLink>
         </li>
         <li>
-          <NavLink className={classes.NavLink} to="/prices">
+          <NavLink onClick={hideNav} className={classes.NavLink} to="/prices">
             Cenovnik
           </NavLink>
         </li>
         <li>
-          <NavLink className={classes.NavLink} to="/contact">
+          <NavLink onClick={hideNav} className={classes.NavLink} to="/contact">
             Kontakt
           </NavLink>
         </li>
