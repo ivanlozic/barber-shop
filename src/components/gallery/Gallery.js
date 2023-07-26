@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Hero from "../hero/Hero";
 import Modal from "./Modal";
-
 import images from "../../assets/images/Gallery/gallery"
 
 function Gallery() {
