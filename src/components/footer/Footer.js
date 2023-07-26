@@ -1,5 +1,5 @@
 import classes from "./Footer.module.css";
-import nameLogo from "../../../assets/images/Name.jpg";
+import nameLogo from "../../assets/images/Name.jpg";
 
 const Footer = () => {
   return (

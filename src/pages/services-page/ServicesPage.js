@@ -1,10 +1,10 @@
-import Hero from "../hero/Hero";
-import classes from "./Services.module.css";
+import { Hero } from '../../components/hero'
+import classes from './ServicesPage.module.css'
 
-function Services() {
+function ServicesPage() {
   return (
     <div>
-      <Hero heading="Usluge" />
+      <Hero heading='Usluge' />
 
       <div className={classes.container}>
         <p className={classes.gender}>Muškarci</p>
@@ -44,7 +44,7 @@ function Services() {
         </p>
       </div>
     </div>
-  );
+  )
 }
 
-export default Services;
+export default ServicesPage

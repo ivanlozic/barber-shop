@@ -1,26 +1,25 @@
-import classes from "./Contact.module.css";
-import faceLogo from "../../assets/images/logo-facebookpng-32202.png";
-import Hero from "../hero/Hero";
-
-const Contact = () => {
+import faceLogo from '../../assets/images/logo-facebookpng-32202.png'
+import {Hero} from '../../components/hero'
+import classes from './ContactPage.module.css'
+function ContactPage() {
   return (
     <div>
-      <Hero heading='Kontakt'/>
+      <Hero heading='Kontakt' />
       <div className={classes.box}>
         <div className={classes.info}>
           <div>
             <h2 className={classes.h2}>Frizerski salon "Savin Frizeraj"</h2>
-            <address style={{ marginTop: "20px" }}>
+            <address style={{ marginTop: '20px' }}>
               Bulevar Slobodana Jovanovića 7 <br /> Novi Sad 21000
             </address>
-            <p style={{ marginTop: "20px" }}>Telefon: 069 3090021</p>
-            <p style={{ marginTop: "20px" }}>Društvene mreže</p>
+            <p style={{ marginTop: '20px' }}>Telefon: 069 3090021</p>
+            <p style={{ marginTop: '20px' }}>Društvene mreže</p>
             <a
-              rel="noreferrer"
-              href="https://www.facebook.com/savin.frizeraj/"
-              target="_blank"
+              rel='noreferrer'
+              href='https://www.facebook.com/savin.frizeraj/'
+              target='_blank'
             >
-              <img className={classes.fb} alt="facebookLogo" src={faceLogo} />
+              <img className={classes.fb} alt='facebookLogo' src={faceLogo} />
             </a>
           </div>
 
@@ -52,16 +51,17 @@ const Contact = () => {
 
         <iframe
           className={classes.iframe}
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3340.2807296321416!2d19.804295893319242!3d45.25122847860891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd5dc3ea25a8f5c7!2z0KHQsNCy0LjQvSDRhNGA0LjQt9C10YDQsNGY!5e0!3m2!1ssr!2srs!4v1675783644863!5m2!1ssr!2srs"
-          width="600"
-          height="450"
+          src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3340.2807296321416!2d19.804295893319242!3d45.25122847860891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd5dc3ea25a8f5c7!2z0KHQsNCy0LjQvSDRhNGA0LjQt9C10YDQsNGY!5e0!3m2!1ssr!2srs!4v1675783644863!5m2!1ssr!2srs'
+          width='600'
+          height='450'
           style={{ border: 0 }}
           allowFullScreen
-          loading="lazy"
-          title="Savin Frizeraj"
+          loading='lazy'
+          title='Savin Frizeraj'
         ></iframe>
       </div>
     </div>
-  );
-};
-export default Contact;
+  )
+}
+
+export default ContactPage

@@ -1,14 +1,14 @@
-import Hero from "../hero/Hero";
-import classes from "./About.module.css";
-import savaImg from "../../assets/images/Sisanje1.jpg";
-import quo1Img from "../../assets/images/quo1.jpg";
-import quo2Img from "../../assets/images/quo2.jpg";
-import quo3Img from "../../assets/images/quo3.png";
+import { Hero } from '../../components/hero'
+import classes from './AboutPage.module.css'
+import savaImg from '../../assets/images/Sisanje1.jpg'
+import quo1Img from '../../assets/images/quo1.jpg'
+import quo2Img from '../../assets/images/quo2.jpg'
+import quo3Img from '../../assets/images/quo3.png'
 
-function About() {
+function AboutPage() {
   return (
     <div>
-      <Hero heading="O nama" />
+      <Hero heading='O nama' />
       <div className={classes.textContainer}>
         <p className={classes.p}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis veniam
@@ -36,7 +36,7 @@ function About() {
           ullam reiciendis possimus ea debitis reprehenderit nihil non, ex
           consequatur. Quas illum earum animi? Neque laboriosam aut accusantium
           pariatur qui hic voluptas praesentium sint sapiente ut!
-        </p>{" "}
+        </p>{' '}
         <br />
         <p className={classes.p}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis veniam
@@ -50,25 +50,25 @@ function About() {
           ullam reiciendis possimus ea debitis reprehenderit nihil non, ex
           consequatur. Quas illum earum animi? Neque laboriosam aut accusantium
           pariatur qui hic voluptas praesentium sint sapiente ut!
-        </p>{" "}
+        </p>{' '}
       </div>
 
       <br />
       <div className={classes.container}>
         <div>
-          <img className={classes.img} src={quo1Img} alt="quote1" />
+          <img className={classes.img} src={quo1Img} alt='quote1' />
         </div>
 
         <div>
-          <img className={classes.img} src={quo3Img} alt="quote2" />
+          <img className={classes.img} src={quo3Img} alt='quote2' />
         </div>
 
         <div>
-          <img className={classes.img} src={quo2Img} alt="quote3" />
+          <img className={classes.img} src={quo2Img} alt='quote3' />
         </div>
       </div>
       <h3
-        style={{ textAlign: "center", marginTop: "5rem", color: "blueviolet" }}
+        style={{ textAlign: 'center', marginTop: '5rem', color: 'blueviolet' }}
       >
         Tim
       </h3>
@@ -76,7 +76,7 @@ function About() {
         <div className={classes.personBox}>
           <h4 className={classes.h4}>Sava Aleksić </h4>
           <div className={classes.person}>
-            <img src={savaImg} alt="Sava Aleksic" />
+            <img src={savaImg} alt='Sava Aleksic' />
             <p className={classes.personText}>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
               veniam qui ad, quam dolores expedita voluptatem sapiente deserunt
@@ -93,11 +93,10 @@ function About() {
           </div>
         </div>
 
-
         <div className={classes.personBox}>
           <h4 className={classes.h4}>Sava Aleksić </h4>
           <div className={classes.person}>
-            <img src={savaImg} alt="Sava Aleksic" />
+            <img src={savaImg} alt='Sava Aleksic' />
             <p className={classes.personText}>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
               veniam qui ad, quam dolores expedita voluptatem sapiente deserunt
@@ -115,7 +114,7 @@ function About() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default About;
+export default AboutPage

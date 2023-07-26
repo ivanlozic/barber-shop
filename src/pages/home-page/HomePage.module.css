@@ -34,22 +34,21 @@ h4 {
   padding: 2rem;
 }
 
-
 .navLink {
   color: white;
   text-decoration: none;
   margin: 2rem 0;
 }
 .men {
-  background-image: url("../../../assets//images/men.jpg");
+  background-image: url('../../assets//images/men.jpg');
 }
 
 .women {
-  background-image: url("../../../assets//images/women.jpg");
+  background-image: url('../../assets//images/women.jpg');
 }
 
 .kids {
-  background-image: url("../../../assets//images/kids.jpg");
+  background-image: url('../../assets//images/kids.jpg');
 }
 
 .men,
@@ -63,6 +62,6 @@ h4 {
   cursor: pointer;
 }
 
-.p{
+.p {
   font-size: 20px;
 }
