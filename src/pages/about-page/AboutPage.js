@@ -4,10 +4,12 @@ import savaImg from '../../assets/images/Sisanje1.jpg'
 import quo1Img from '../../assets/images/quo1.jpg'
 import quo2Img from '../../assets/images/quo2.jpg'
 import quo3Img from '../../assets/images/quo3.png'
+import { Navbar } from '../../components/navbar'
 
 function AboutPage() {
   return (
     <div>
+      <Navbar />
       <Hero heading='O nama' />
       <div className={classes.textContainer}>
         <p className={classes.p}>

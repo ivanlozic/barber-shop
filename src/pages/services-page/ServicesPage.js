@@ -1,9 +1,11 @@
 import { Hero } from '../../components/hero'
 import classes from './ServicesPage.module.css'
+import { Navbar } from '../../components/navbar'
 
 function ServicesPage() {
   return (
     <div>
+      <Navbar />
       <Hero heading='Usluge' />
 
       <div className={classes.container}>

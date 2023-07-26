@@ -1,9 +1,10 @@
 import {Hero} from '../../components/hero'
 import classes from "./PricePage.module.css";
-
+import { Navbar } from '../../components/navbar'
 
 function PricePage() {
   return  <div>
+    <Navbar />
   <Hero heading="Cenovnik" />
   <div className={classes.tableBox}>
     <table style={{ borderCollapse: "collapse", width: "100%" }}>

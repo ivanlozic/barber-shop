@@ -1,9 +1,11 @@
 import faceLogo from '../../assets/images/logo-facebookpng-32202.png'
 import {Hero} from '../../components/hero'
 import classes from './ContactPage.module.css'
+import { Navbar } from '../../components/navbar'
 function ContactPage() {
   return (
     <div>
+      <Navbar />
       <Hero heading='Kontakt' />
       <div className={classes.box}>
         <div className={classes.info}>

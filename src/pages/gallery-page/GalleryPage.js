@@ -3,6 +3,7 @@ import { Hero } from '../../components/hero'
 import images from '../../assets/images/Gallery/gallery'
 import { Modal } from '../../components/modal'
 import classes from './GalleryPage.module.css'
+import { Navbar } from '../../components/navbar'
 
 function GalleryPage() {
   const [clickedImg, setClickedImg] = useState(null)
@@ -49,6 +50,7 @@ function GalleryPage() {
 
   return (
     <div>
+      <Navbar />
       <Hero heading='Galerija' />
       <div className={classes.wrapper}>
         {images.map((item, index) => (
